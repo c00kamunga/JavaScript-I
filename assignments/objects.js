@@ -18,7 +18,7 @@ const example = {
 }
 
 // Write your intern objects here:
-const mitzi = {
+const Mitzi = {
   id: 1,
   name: "Mitzi",
   email: "mmelloy0@psu.edu",
@@ -59,15 +59,15 @@ const Antonietta={
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-
+console.log(Mitzi.name);
 // Kennan's ID
-
+console.log(Kennan.id);
 // Keven's email
-
+console.log(Kennan.email);
 // Gannie's name
-
+console.log(Gannie.name);
 // Antonietta's Gender
-
+console.log(Antonietta.Gender);
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
